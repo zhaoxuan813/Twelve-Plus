@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Música</string>
+    <string name="app_permissions_toast">L\'usuariu nun concedió los permisos.</string>
+    <string name="visualizer_permissions_toast">El permisu pa grabar audiu ye obligatoriu pal visualizador.</string>
+    <string name="main_fragment_section_activity">Actividá</string>
+    <string name="main_fragment_section_search">Busca</string>
+    <string name="main_fragment_section_library">Biblioteca</string>
+    <string name="search_hint">Buscar…</string>
+    <string name="library_fragment_menu_albums">Álbumes</string>
+    <string name="library_fragment_menu_artists">Artistes</string>
+    <string name="library_fragment_menu_genres">Xéneros</string>
+    <string name="library_fragment_menu_playlists">Llistes</string>
+    <string name="no_activity">Nun hai actividá</string>
+    <string name="audio_effects">Efeutos d\'audiu</string>
+    <string name="playback_speed">Velocidá de reproducción</string>
+    <string name="visualizer">Visualizador</string>
+    <string name="audio_sample_rate_format">%1$s kHz</string>
+    <string name="audio_encoding">Codificación</string>
+    <string name="audio_bitrate_format">%1$s kbps</string>
+    <string name="provider_argument_server">Sirvidor</string>
+    <string name="provider_argument_password">Contraseña</string>
+    <string name="providers">Fornidores</string>
+    <string name="delete_provider_confirmation">¿De xuru que quies desaniciar esti fornidor?</string>
+    <string name="provider_name">Nome</string>
+    <string name="argument_validation_error_title">Error</string>
+    <string name="argument_validation_error_message">Prodúxose un error mentanto s\'analizaben los argumentos siguientes:\n%1$s</string>
+    <string name="title_activity_settings">Configuración</string>
+    <string name="general_header">Xeneral</string>
+    <string name="experimental_header">Esperimental</string>
+    <string name="now_playing_widget_description">En reproducción</string>
+    <string name="now_playing_widget_dummy_title">Títulu</string>
+    <string name="now_playing_widget_dummy_artist">Artista</string>
+    <string name="genre_appears_in_albums_header">Apaez nos álbumes</string>
+    <string name="activity_most_played_albums">Los álbumes más reproducíos</string>
+    <string name="activity_random_albums">Álbumes aleatorios</string>
+    <string name="activity_random_songs">Canciones aleatories</string>
+    <string name="content_description_thumbnail">Miniatura</string>
+    <string name="library_item_no_permissions_description">L\'aplicación nun tien los permisos necesarios</string>
+    <string name="library_item_albums">Álbumes</string>
+    <string name="library_item_artists">Artistes</string>
+    <string name="library_item_genres">Xéneros</string>
+    <string name="library_item_playlists">Llistes</string>
+    <string name="yes">Sí</string>
+    <string name="no">Non</string>
+    <string name="ampache_server">Sirvidor</string>
+    <string name="playlist_name">Nome</string>
+    <string name="provider">Fornidor</string>
+    <string name="repeat_all">Repitir too</string>
+    <string name="repeat_one">Repitir una vegada</string>
+    <string name="repeat_off">Nun repitir</string>
+    <string name="lyrics_not_available">La lletra nun ta disponible</string>
+    <string name="favorites_playlist">Favoritos</string>
+    <string name="add_to_favorites">Amestar a Favoritos</string>
+    <string name="remove_from_favorites">Quitar de Favoritos</string>
+</resources>

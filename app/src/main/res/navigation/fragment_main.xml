@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_main"
+    app:startDestination="@id/mainFragment">
+
+    <include app:graph="@navigation/fragment_add_or_remove_from_playlists" />
+    <include app:graph="@navigation/fragment_album" />
+    <include app:graph="@navigation/fragment_artist" />
+    <include app:graph="@navigation/fragment_create_playlist_dialog" />
+    <include app:graph="@navigation/fragment_media_item_bottom_sheet_dialog" />
+    <include app:graph="@navigation/fragment_genre" />
+    <include app:graph="@navigation/fragment_lyrics" />
+    <include app:graph="@navigation/fragment_manage_provider" />
+    <include app:graph="@navigation/fragment_now_playing" />
+    <include app:graph="@navigation/fragment_now_playing_stats_bottom_sheet_dialog" />
+    <include app:graph="@navigation/fragment_playback_control_bottom_sheet_dialog" />
+    <include app:graph="@navigation/fragment_playlist" />
+    <include app:graph="@navigation/fragment_provider_information_bottom_sheet_dialog" />
+    <include app:graph="@navigation/fragment_provider_selector_dialog" />
+    <include app:graph="@navigation/fragment_queue" />
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="org.lineageos.twelve.fragments.MainFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_main">
+
+        <action
+            android:id="@+id/action_mainFragment_to_fragment_album"
+            app:destination="@+id/fragment_album"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+        <action
+            android:id="@+id/action_mainFragment_to_fragment_artist"
+            app:destination="@+id/fragment_artist"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+        <action
+            android:id="@+id/action_mainFragment_to_fragment_create_playlist_dialog"
+            app:destination="@+id/fragment_create_playlist_dialog"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+        <action
+            android:id="@+id/action_mainFragment_to_fragment_media_item_bottom_sheet_dialog"
+            app:destination="@+id/fragment_media_item_bottom_sheet_dialog"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+        <action
+            android:id="@+id/action_mainFragment_to_fragment_genre"
+            app:destination="@+id/fragment_genre"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+        <action
+            android:id="@+id/action_mainFragment_to_fragment_playlist"
+            app:destination="@+id/fragment_playlist"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+        <action
+            android:id="@+id/action_mainFragment_to_fragment_provider_selector_dialog"
+            app:destination="@+id/fragment_provider_selector_dialog"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+        <action
+            android:id="@+id/action_mainFragment_to_fragment_provider_information_bottom_sheet_dialog"
+            app:destination="@+id/fragment_provider_information_bottom_sheet_dialog"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+    </fragment>
+
+</navigation>

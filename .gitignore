@@ -1,0 +1,26 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Twelve Plus local build outputs
+.gradle/
+**/build/
+local.properties
+*.apk
+*.aab
+
+# IDE / local files
+.idea/
+*.iml
+
+# Temporary files
+*.log
+*.tmp
+decoder_ffmpeg/src/main/jni/ffmpeg-6.0.tar.xz

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Music</string>
+
+    <!-- Toast messages -->
+    <string name="app_permissions_toast">Permissions not granted by the user.</string>
+    <string name="visualizer_permissions_toast">Record audio permission is required for the visualizer.</string>
+
+    <!-- Main fragment sections -->
+    <string name="main_fragment_section_activity">Activity</string>
+    <string name="main_fragment_section_search">Search</string>
+    <string name="main_fragment_section_library">Library</string>
+
+    <!-- Main fragment - Play random songs button -->
+    <string name="play_random_songs">Play random songs</string>
+
+    <!-- Search fragment -->
+    <string name="search_hint">Search…</string>
+
+    <!-- Library fragment menus -->
+    <string name="library_fragment_menu_albums">Albums</string>
+    <string name="library_fragment_menu_artists">Artists</string>
+    <string name="library_fragment_menu_genres">Genres</string>
+    <string name="library_fragment_menu_playlists">Playlists</string>
+
+    <!-- Playlists fragment -->
+    <string name="create_playlist">Create new playlist</string>
+    <string name="no_playlists_comma">No playlists,</string>
+    <string name="create_playlist_suggestion">Create a new one?</string>
+    <string name="create_playlist_confirm">Create</string>
+
+    <!-- No elements -->
+    <string name="no_activity">No activity</string>
+    <string name="no_albums">No albums</string>
+    <string name="no_artists">No artists</string>
+    <string name="no_genres">No genres</string>
+    <string name="no_playlists">No playlists</string>
+    <string name="no_audios">No audios</string>
+    <string name="no_results">No results</string>
+    <string name="shrug" translatable="false">¯\\_(ツ)_/¯</string>
+
+    <!-- Unknown items -->
+    <string name="album_unknown">Unknown album</string>
+    <string name="artist_unknown">Unknown artist</string>
+    <string name="audio_unknown">Unknown audio</string>
+    <string name="genre_unknown">Unknown genre</string>
+    <string name="playlist_unknown">Unknown playlist</string>
+
+    <!-- Tracks information -->
+    <string name="year_format" translatable="false">%1$d</string>
+    <plurals name="tracks_count">
+        <item quantity="one">%d track</item>
+        <item quantity="many">%d tracks</item>
+        <item quantity="other">%d tracks</item>
+    </plurals>
+    <plurals name="tracks_duration">
+        <item quantity="one">%d minute</item>
+        <item quantity="many">%d minutes</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    <string name="tracks_info" translatable="false">%1$s, %2$s</string>
+
+    <!-- Artist fragment -->
+    <string name="artist_albums_header">Albums</string>
+    <string name="artist_appears_in_album_header">Appears in album</string>
+    <string name="artist_appears_in_playlist_header">Appears in playlist</string>
+
+    <!-- Audio info bottom sheet dialog fragment -->
+    <string name="action_play">Play</string>
+    <string name="audio_play_next">Play next</string>
+    <string name="audio_add_to_queue">Add to queue</string>
+    <string name="audio_remove_from_playlist">Remove from playlist</string>
+    <string name="audio_add_or_remove_from_playlists">Add or remove from playlists</string>
+    <string name="open_album">Open album</string>
+    <string name="open_artist">Open artist</string>
+    <string name="open_genre">Open genre</string>
+
+    <!-- Playlist fragment -->
+    <string name="rename_playlist">Rename playlist</string>
+    <string name="rename_playlist_positive">Rename</string>
+    <string name="delete_playlist">Delete playlist</string>
+    <string name="delete_playlist_message">Are you sure you want to delete this playlist?</string>
+
+    <!-- Now playing fragment -->
+    <string name="audio_information">Audio information</string>
+    <string name="audio_effects">Audio effects</string>
+    <string name="playback_speed">Playback speed</string>
+    <string name="playback_speed_format">%1$s×</string>
+    <string name="playback_pitch_slider_description">Playback pitch</string>
+    <string name="playback_pitch_unlock">Unlock pitch change</string>
+    <string name="playback_warning">Speed and pitch may not work correctly while playback offload feature is enabled. Try toggling it in the app\'s settings.</string>
+    <string name="visualizer">Visualizer</string>
+    <string name="hi_res" translatable="false">Hi-Res</string>
+    <string name="audio_file_type_unknown_short" translatable="false">\???</string>
+
+    <!-- Now playing stats dialog fragment -->
+    <string name="audio_potential_issues">Potential issues</string>
+    <string name="audio_source">Source</string>
+    <string name="audio_transcoding">Transcoding</string>
+    <string name="audio_output">Output</string>
+    <string name="audio_file_type">File type</string>
+    <string name="audio_file_type_unknown">Unknown</string>
+    <string name="audio_format_compression">Compression</string>
+    <string name="audio_sample_rate">Sample rate</string>
+    <string name="audio_sample_rate_format">%1$s kHz</string>
+    <string name="audio_sample_rate_unknown">Unknown</string>
+    <string name="audio_channel_count">Channel count</string>
+    <string name="audio_channel_count_unknown">Unknown</string>
+    <string name="audio_encoding">Encoding</string>
+    <string name="audio_encoding_unknown">Unknown</string>
+    <string name="audio_output_mode">Output mode</string>
+    <string name="audio_output_mode_unknown">Unknown</string>
+    <string name="audio_output_mode_pcm">PCM</string>
+    <string name="audio_output_mode_offload">Offload</string>
+    <string name="audio_output_mode_passthrough">Passthrough</string>
+    <string name="audio_bitrate">Bitrate</string>
+    <string name="audio_peak_bitrate">Peak bitrate</string>
+    <string name="audio_average_bitrate">Average bitrate</string>
+    <string name="audio_bitrate_unknown">Unknown</string>
+    <string name="audio_bitrate_format">%1$s kbps</string>
+    <string name="audio_output_device_name">Name</string>
+    <string name="audio_output_device_name_unknown">Unknown</string>
+    <string name="audio_output_device_type">Type</string>
+
+    <!-- Audio output device types -->
+    <string name="audio_output_device_type_unknown">Unknown</string>
+    <string name="audio_output_device_type_builtin">Built-in</string>
+    <string name="audio_output_device_type_headphones">Headphones</string>
+    <string name="audio_output_device_type_external_speakers">External speakers</string>
+    <string name="audio_output_device_type_bluetooth">Bluetooth</string>
+    <string name="audio_output_device_type_hdmi">HDMI</string>
+    <string name="audio_output_device_type_usb">USB</string>
+    <string name="audio_output_device_type_remote">Remote</string>
+    <string name="audio_output_device_type_hearing_aid">Hearing aid</string>
+
+    <!-- Audio format compression types -->
+    <string name="audio_format_compression_unknown">Unknown</string>
+    <string name="audio_format_compression_lossy">Lossy</string>
+    <string name="audio_format_compression_lossless">Lossless</string>
+    <string name="audio_format_compression_uncompressed">Uncompressed</string>
+
+    <!-- Audio output potential issues -->
+    <string name="audio_output_issue_downsampling">Downsampling</string>
+    <string name="audio_output_issue_downsampling_description">The app is currently downsampling the audio due to the output device not supporting the target sample rate</string>
+    <string name="audio_output_issue_pcm_float_mode_disabled">32-bit floating point output is disabled</string>
+    <string name="audio_output_issue_pcm_float_mode_disabled_description">The audio quality can benefit from 32-bit floating point output mode. You can enable it from the app\'s settings</string>
+    <string name="audio_output_issue_downmixing">Downmixing</string>
+    <string name="audio_output_issue_downmixing_description">The app is currently downmixing the audio due to the output device not supporting the target channel count</string>
+    <string name="audio_output_issue_post_processing_lossy_compression">Post-processing lossy compression</string>
+    <string name="audio_output_issue_post_processing_lossy_compression_description">The app is compressing the audio data into a lossy encoding. The audio quality may be affected</string>
+
+    <!-- Provider types -->
+    <string name="provider_type_local">Local</string>
+    <string name="provider_type_subsonic" translatable="false">Subsonic / OpenSubsonic / Navidrome</string>
+    <string name="provider_type_jellyfin" translatable="false">Jellyfin</string>
+    <string name="provider_type_ampache" translatable="false">Ampache</string>
+
+    <!-- Provider arguments -->
+    <string name="provider_argument_server">Server</string>
+    <string name="provider_argument_username">Username</string>
+    <string name="provider_argument_password">Password</string>
+    <string name="provider_argument_use_legacy_authentication">Use legacy authentication</string>
+    <string name="provider_argument_volume_name">Volume name</string>
+
+    <!-- Provider arguments validation errors -->
+    <string name="provider_argument_validation_error_required">A value is required</string>
+    <string name="provider_argument_validation_error_malformed_http_uri">Must be a valid HTTP or HTTPS URL (e.g. http://192.168.1.100 or https://google.com)</string>
+
+    <!-- Provider selector dialog fragment -->
+    <string name="no_provider">No provider</string>
+    <string name="providers">Providers</string>
+    <string name="add_provider_action">Add</string>
+
+    <!-- Manage provider fragment -->
+    <string name="add_provider">Add provider</string>
+    <string name="manage_provider">Manage provider</string>
+    <string name="save_provider_action">Save</string>
+    <string name="delete_provider_action">Delete</string>
+    <string name="delete_provider_confirmation">Are you sure you want to delete this provider?</string>
+    <string name="provider_name">Name</string>
+    <string name="provider_name_error">Enter a name</string>
+    <string name="provider_type">Provider type</string>
+    <string name="provider_type_error">Select a provider type</string>
+    <string name="argument_validation_error_title">Error</string>
+    <string name="argument_validation_error_message">Error while parsing the following arguments:\n%1$s</string>
+    <string name="argument_validation_error_item">%1$s: %2$s</string>
+
+    <!-- Settings title -->
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference titles -->
+    <string name="general_header">General</string>
+    <string name="experimental_header">Experimental</string>
+
+    <!-- General preferences -->
+    <string name="fullscreen_mode">Fullscreen mode</string>
+    <string name="fullscreen_mode_summary">Enable fullscreen mode. This will hide the navigation bar and status bar, but will still make sure that no touchable content overlaps with display cutouts</string>
+    <string name="enable_offload">Enable offload</string>
+    <string name="enable_offload_summary">Use the offload audio path for audio playback. Disabling this may increase power usage but can be useful if you experience issues with audio playback or post processing</string>
+    <string name="enable_float_output">Enable 32-bit floating point output</string>
+    <string name="enable_float_output_summary">Use 32-bit PCM floating point output when the audio quality can benefit from it. Audio effects like speed and pitch controls will stop working in this mode. Toggling this option requires an app restart</string>
+    <string name="stop_playback_on_task_removed">Stop playback on app\'s removal from recents</string>
+    <string name="stop_playback_on_task_removed_summary">Stop playback when the app is cleared from recents</string>
+    <string name="skip_silence">Skip silence</string>
+    <string name="skip_silence_summary">Skip silence when playing audio</string>
+
+    <!-- Reset local stats -->
+    <string name="reset_local_stats">Reset local media playback statistics</string>
+    <string name="reset_local_stats_confirm_title">Reset local stats</string>
+    <string name="reset_local_stats_confirm_message">Are you sure you want to reset all local media playback statistics? This action cannot be undone.</string>
+    <string name="reset_local_stats_confirm_positive">Reset</string>
+    <string name="reset_local_stats_success">Local media playback statistics have been reset</string>
+
+    <!-- Rescan MediaStore -->
+    <string name="rescan_media_store">Trigger a MediaStore database rescan</string>
+    <string name="rescan_media_store_confirm_title">Rescan MediaStore database</string>
+    <string name="rescan_media_store_confirm_message">Would you like to trigger a MediaStore database rescan? This might fix missing local media items</string>
+    <string name="rescan_media_store_confirm_positive">Rescan</string>
+    <string name="rescan_media_store_started">MediaStore rescan started</string>
+
+    <!-- Experimental preferences -->
+    <string name="split_local_devices">Split local devices</string>
+    <string name="split_local_devices_summary">If enabled, internal storage and external devices (SD cards, USB devices, etc.) will appear under different providers</string>
+
+    <!-- Now playing widget -->
+    <string name="now_playing_widget_description">Now playing</string>
+    <string name="now_playing_widget_dummy_title">Title</string>
+    <string name="now_playing_widget_dummy_artist">Artist</string>
+
+    <!-- Album fragment -->
+    <string name="album_disc_header">Disc %1$d</string>
+    <string name="track_number" translatable="false">%1$d</string>
+
+    <!-- Genre fragment -->
+    <string name="genre_appears_in_albums_header">Appears in albums</string>
+    <string name="genre_appears_in_playlists_header">Appears in playlists</string>
+    <string name="genre_audios_header">Audios</string>
+
+    <!-- Queue fragment -->
+    <string name="queue">Queue</string>
+
+    <!-- Sorting strategies -->
+    <string name="sort_by_artist_name">Artist name</string>
+    <string name="sort_by_creation_date">Created at</string>
+    <string name="sort_by_last_modified">Last modified</string>
+    <string name="sort_by_last_activity">Last activity</string>
+    <string name="sort_by_name">Name</string>
+    <string name="sort_by_play_count">Play count</string>
+    <string name="sort_by_release_date">Release date</string>
+    <string name="sort_by_title">Title</string>
+    <string name="sort_by_unknown">Unknown</string>
+
+    <!-- Activities -->
+    <string name="activity_most_played_albums">Most played albums</string>
+    <string name="activity_most_played_artists">Most played artists</string>
+    <string name="activity_most_played_genres">Most played genres</string>
+    <string name="activity_most_played_songs">Most played songs</string>
+    <string name="activity_random_albums">Random albums</string>
+    <string name="activity_random_artists">Random artists</string>
+    <string name="activity_random_genres">Random genres</string>
+    <string name="activity_random_playlists">Random playlists</string>
+    <string name="activity_random_songs">Random songs</string>
+
+    <!-- Content descriptions -->
+    <string name="content_description_play_pause">Play/pause</string>
+    <string name="content_description_thumbnail">Thumbnail</string>
+
+    <!-- Play buttons -->
+    <string name="play_all">Play all</string>
+    <string name="shuffle_play">Shuffle play</string>
+
+    <!-- Media repository tree -->
+    <string name="library_item_no_permissions">No permissions</string>
+    <string name="library_item_no_permissions_description">The app doesn\'t have the necessary permissions</string>
+    <string name="library_item_albums">Albums</string>
+    <string name="library_item_artists">Artists</string>
+    <string name="library_item_genres">Genres</string>
+    <string name="library_item_playlists">Playlists</string>
+    <string name="library_item_change_provider">Change provider</string>
+    <string name="library_item_provider_changed">Provider changed, go back to main menu</string>
+
+    <!-- Localized string - generic values -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="unknown">Unknown</string>
+
+    <!-- Data source information - Subsonic -->
+    <string name="subsonic_version">Subsonic version</string>
+    <string name="subsonic_version_format" translatable="false">%1$d.%2$d.%3$d</string>
+    <string name="subsonic_server_type">Server type</string>
+    <string name="subsonic_server_version">Server version</string>
+    <string name="subsonic_supports_opensubsonic">Supports OpenSubsonic extensions</string>
+    <string name="subsonic_license">License</string>
+    <string name="subsonic_license_valid">Valid</string>
+    <string name="subsonic_license_invalid">Invalid</string>
+
+    <!-- Data source information - Jellyfin -->
+    <string name="jellyfin_server_name">Server name</string>
+    <string name="jellyfin_version">Version</string>
+    <string name="jellyfin_product_name">Product name</string>
+    <string name="jellyfin_operating_system">Operating system</string>
+
+    <!-- Data source information - Ampache -->
+    <string name="ampache_server">Server</string>
+    <string name="ampache_version">Version</string>
+    <string name="ampache_compatible">Compatible</string>
+
+    <!-- Create playlist fragment -->
+    <string name="playlist_name">Name</string>
+    <string name="provider">Provider</string>
+    <string name="provider_format" translatable="false">%1$s (%2$s)</string>
+    <string name="create_playlist_error_empty_name">No name specified</string>
+
+    <!-- Player actions -->
+    <string name="shuffle_on">Shuffle on</string>
+    <string name="shuffle_off">Shuffle off</string>
+    <string name="repeat_all">Repeat all</string>
+    <string name="repeat_one">Repeat one</string>
+    <string name="repeat_off">Repeat off</string>
+
+    <!-- Lyrics -->
+    <string name="lyrics">Lyrics</string>
+    <string name="lyrics_not_available">Lyrics not available</string>
+    <string name="follow_current_lyrics_line">Follow current line</string>
+
+    <!-- Favorites -->
+    <string name="favorites_playlist">Favorites</string>
+    <string name="add_to_favorites">Add to favorites</string>
+    <string name="remove_from_favorites">Remove from favorites</string>
+</resources>
