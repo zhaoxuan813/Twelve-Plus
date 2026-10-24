@@ -26,3 +26,4 @@ local.properties
 decoder_ffmpeg/src/main/jni/ffmpeg-6.0.tar.xz
 decoder_ffmpeg/src/main/jni/ffmpeg-6.0.tar.xz
 .github/workflows/
+decoder_ffmpeg/src/test/resources/robolectric.properties
