@@ -24,3 +24,4 @@ local.properties
 *.log
 *.tmp
 decoder_ffmpeg/src/main/jni/ffmpeg-6.0.tar.xz
+decoder_ffmpeg/src/main/jni/ffmpeg-6.0.tar.xz
